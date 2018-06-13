@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4272787120D0AEAD00DF3BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272787020D0AEAD00DF3BD8 /* AppDelegate.m */; };
+		4272787420D0AEAD00DF3BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272787320D0AEAD00DF3BD8 /* ViewController.m */; };
+		4272787720D0AEAD00DF3BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4272787520D0AEAD00DF3BD8 /* Main.storyboard */; };
+		4272787920D0AEAF00DF3BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4272787820D0AEAF00DF3BD8 /* Assets.xcassets */; };
+		4272787C20D0AEAF00DF3BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4272787A20D0AEAF00DF3BD8 /* LaunchScreen.storyboard */; };
+		4272787F20D0AEAF00DF3BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272787E20D0AEAF00DF3BD8 /* main.m */; };
+		4272788920D0AEAF00DF3BD8 /* AutoCellTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272788820D0AEAF00DF3BD8 /* AutoCellTextViewTests.m */; };
+		4272789420D0AEAF00DF3BD8 /* AutoCellTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272789320D0AEAF00DF3BD8 /* AutoCellTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4272788520D0AEAF00DF3BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4272786420D0AEAD00DF3BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4272786B20D0AEAD00DF3BD8;
+			remoteInfo = AutoCellTextView;
+		};
+		4272789020D0AEAF00DF3BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4272786420D0AEAD00DF3BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4272786B20D0AEAD00DF3BD8;
+			remoteInfo = AutoCellTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4272786C20D0AEAD00DF3BD8 /* AutoCellTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCellTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4272786F20D0AEAD00DF3BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4272787020D0AEAD00DF3BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4272787220D0AEAD00DF3BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4272787320D0AEAD00DF3BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4272787620D0AEAD00DF3BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4272787820D0AEAF00DF3BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4272787B20D0AEAF00DF3BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4272787D20D0AEAF00DF3BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4272787E20D0AEAF00DF3BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4272788420D0AEAF00DF3BD8 /* AutoCellTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCellTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4272788820D0AEAF00DF3BD8 /* AutoCellTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCellTextViewTests.m; sourceTree = "<group>"; };
+		4272788A20D0AEAF00DF3BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4272788F20D0AEAF00DF3BD8 /* AutoCellTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCellTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4272789320D0AEAF00DF3BD8 /* AutoCellTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCellTextViewUITests.m; sourceTree = "<group>"; };
+		4272789520D0AEAF00DF3BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4272786920D0AEAD00DF3BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4272788120D0AEAF00DF3BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4272788C20D0AEAF00DF3BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4272786320D0AEAD00DF3BD8 = {
+			isa = PBXGroup;
+			children = (
+				4272786E20D0AEAD00DF3BD8 /* AutoCellTextView */,
+				4272788720D0AEAF00DF3BD8 /* AutoCellTextViewTests */,
+				4272789220D0AEAF00DF3BD8 /* AutoCellTextViewUITests */,
+				4272786D20D0AEAD00DF3BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4272786D20D0AEAD00DF3BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4272786C20D0AEAD00DF3BD8 /* AutoCellTextView.app */,
+				4272788420D0AEAF00DF3BD8 /* AutoCellTextViewTests.xctest */,
+				4272788F20D0AEAF00DF3BD8 /* AutoCellTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4272786E20D0AEAD00DF3BD8 /* AutoCellTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4272786F20D0AEAD00DF3BD8 /* AppDelegate.h */,
+				4272787020D0AEAD00DF3BD8 /* AppDelegate.m */,
+				4272787220D0AEAD00DF3BD8 /* ViewController.h */,
+				4272787320D0AEAD00DF3BD8 /* ViewController.m */,
+				4272787520D0AEAD00DF3BD8 /* Main.storyboard */,
+				4272787820D0AEAF00DF3BD8 /* Assets.xcassets */,
+				4272787A20D0AEAF00DF3BD8 /* LaunchScreen.storyboard */,
+				4272787D20D0AEAF00DF3BD8 /* Info.plist */,
+				4272787E20D0AEAF00DF3BD8 /* main.m */,
+			);
+			path = AutoCellTextView;
+			sourceTree = "<group>";
+		};
+		4272788720D0AEAF00DF3BD8 /* AutoCellTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4272788820D0AEAF00DF3BD8 /* AutoCellTextViewTests.m */,
+				4272788A20D0AEAF00DF3BD8 /* Info.plist */,
+			);
+			path = AutoCellTextViewTests;
+			sourceTree = "<group>";
+		};
+		4272789220D0AEAF00DF3BD8 /* AutoCellTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4272789320D0AEAF00DF3BD8 /* AutoCellTextViewUITests.m */,
+				4272789520D0AEAF00DF3BD8 /* Info.plist */,
+			);
+			path = AutoCellTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4272786B20D0AEAD00DF3BD8 /* AutoCellTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4272789820D0AEAF00DF3BD8 /* Build configuration list for PBXNativeTarget "AutoCellTextView" */;
+			buildPhases = (
+				4272786820D0AEAD00DF3BD8 /* Sources */,
+				4272786920D0AEAD00DF3BD8 /* Frameworks */,
+				4272786A20D0AEAD00DF3BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCellTextView;
+			productName = AutoCellTextView;
+			productReference = 4272786C20D0AEAD00DF3BD8 /* AutoCellTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4272788320D0AEAF00DF3BD8 /* AutoCellTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4272789B20D0AEAF00DF3BD8 /* Build configuration list for PBXNativeTarget "AutoCellTextViewTests" */;
+			buildPhases = (
+				4272788020D0AEAF00DF3BD8 /* Sources */,
+				4272788120D0AEAF00DF3BD8 /* Frameworks */,
+				4272788220D0AEAF00DF3BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4272788620D0AEAF00DF3BD8 /* PBXTargetDependency */,
+			);
+			name = AutoCellTextViewTests;
+			productName = AutoCellTextViewTests;
+			productReference = 4272788420D0AEAF00DF3BD8 /* AutoCellTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4272788E20D0AEAF00DF3BD8 /* AutoCellTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4272789E20D0AEAF00DF3BD8 /* Build configuration list for PBXNativeTarget "AutoCellTextViewUITests" */;
+			buildPhases = (
+				4272788B20D0AEAF00DF3BD8 /* Sources */,
+				4272788C20D0AEAF00DF3BD8 /* Frameworks */,
+				4272788D20D0AEAF00DF3BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4272789120D0AEAF00DF3BD8 /* PBXTargetDependency */,
+			);
+			name = AutoCellTextViewUITests;
+			productName = AutoCellTextViewUITests;
+			productReference = 4272788F20D0AEAF00DF3BD8 /* AutoCellTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4272786420D0AEAD00DF3BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ENN;
+				TargetAttributes = {
+					4272786B20D0AEAD00DF3BD8 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4272788320D0AEAF00DF3BD8 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4272786B20D0AEAD00DF3BD8;
+					};
+					4272788E20D0AEAF00DF3BD8 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4272786B20D0AEAD00DF3BD8;
+					};
+				};
+			};
+			buildConfigurationList = 4272786720D0AEAD00DF3BD8 /* Build configuration list for PBXProject "AutoCellTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4272786320D0AEAD00DF3BD8;
+			productRefGroup = 4272786D20D0AEAD00DF3BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4272786B20D0AEAD00DF3BD8 /* AutoCellTextView */,
+				4272788320D0AEAF00DF3BD8 /* AutoCellTextViewTests */,
+				4272788E20D0AEAF00DF3BD8 /* AutoCellTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4272786A20D0AEAD00DF3BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4272787C20D0AEAF00DF3BD8 /* LaunchScreen.storyboard in Resources */,
+				4272787920D0AEAF00DF3BD8 /* Assets.xcassets in Resources */,
+				4272787720D0AEAD00DF3BD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4272788220D0AEAF00DF3BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4272788D20D0AEAF00DF3BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4272786820D0AEAD00DF3BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4272787420D0AEAD00DF3BD8 /* ViewController.m in Sources */,
+				4272787F20D0AEAF00DF3BD8 /* main.m in Sources */,
+				4272787120D0AEAD00DF3BD8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4272788020D0AEAF00DF3BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4272788920D0AEAF00DF3BD8 /* AutoCellTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4272788B20D0AEAF00DF3BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4272789420D0AEAF00DF3BD8 /* AutoCellTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4272788620D0AEAF00DF3BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4272786B20D0AEAD00DF3BD8 /* AutoCellTextView */;
+			targetProxy = 4272788520D0AEAF00DF3BD8 /* PBXContainerItemProxy */;
+		};
+		4272789120D0AEAF00DF3BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4272786B20D0AEAD00DF3BD8 /* AutoCellTextView */;
+			targetProxy = 4272789020D0AEAF00DF3BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4272787520D0AEAD00DF3BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4272787620D0AEAD00DF3BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4272787A20D0AEAF00DF3BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4272787B20D0AEAF00DF3BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4272789620D0AEAF00DF3BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4272789720D0AEAF00DF3BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4272789920D0AEAF00DF3BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXA3E8963G;
+				INFOPLIST_FILE = AutoCellTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENN.AutoCellTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4272789A20D0AEAF00DF3BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXA3E8963G;
+				INFOPLIST_FILE = AutoCellTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENN.AutoCellTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4272789C20D0AEAF00DF3BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXA3E8963G;
+				INFOPLIST_FILE = AutoCellTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENN.AutoCellTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCellTextView.app/AutoCellTextView";
+			};
+			name = Debug;
+		};
+		4272789D20D0AEAF00DF3BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXA3E8963G;
+				INFOPLIST_FILE = AutoCellTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENN.AutoCellTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCellTextView.app/AutoCellTextView";
+			};
+			name = Release;
+		};
+		4272789F20D0AEAF00DF3BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXA3E8963G;
+				INFOPLIST_FILE = AutoCellTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENN.AutoCellTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoCellTextView;
+			};
+			name = Debug;
+		};
+		427278A020D0AEAF00DF3BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXA3E8963G;
+				INFOPLIST_FILE = AutoCellTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENN.AutoCellTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoCellTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4272786720D0AEAD00DF3BD8 /* Build configuration list for PBXProject "AutoCellTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4272789620D0AEAF00DF3BD8 /* Debug */,
+				4272789720D0AEAF00DF3BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4272789820D0AEAF00DF3BD8 /* Build configuration list for PBXNativeTarget "AutoCellTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4272789920D0AEAF00DF3BD8 /* Debug */,
+				4272789A20D0AEAF00DF3BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4272789B20D0AEAF00DF3BD8 /* Build configuration list for PBXNativeTarget "AutoCellTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4272789C20D0AEAF00DF3BD8 /* Debug */,
+				4272789D20D0AEAF00DF3BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4272789E20D0AEAF00DF3BD8 /* Build configuration list for PBXNativeTarget "AutoCellTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4272789F20D0AEAF00DF3BD8 /* Debug */,
+				427278A020D0AEAF00DF3BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4272786420D0AEAD00DF3BD8 /* Project object */;
+}
